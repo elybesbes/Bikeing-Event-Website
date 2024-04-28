@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    background: linear-gradient(to right bottom, #0a0c68, #002f81, #004c95, #0068a4, #3084b0, #4e95b9, #69a6c2, #84b7cc, #95c3d6, #a6cfdf, #b7dbe9, #c8e7f3);
+}
+
+#registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85.6vh;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.participants{
+display: flex;
+}
+
+.participant1 {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.participant2 {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.inputbox {
+    margin-bottom: 20px;
+}
+
+.inputbox span {
+    font-size: 14px;
+    color: #333;
+}
+
+input,
+select {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.row100 {
+    margin-top: 20px;
+}
+
+.inputbox input[type="submit"] {
+    margin-left: 165px;
+    width: 50%;
+    border: 2px solid #ffffff;
+    background-color: #6fbff5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.inputbox input[type="submit"]:hover {
+    background-color: #205e88;
+    color: #6fbff5;
+    border-radius: 5px;
+    border: 2px solid #6fbff5;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+.social-media {
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-right: 129px;
+    padding: 0;
+    margin-top: 19px;
+}
+
+.social-media a:hover {
+    color: #84b7cc;
+}
+
+.icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin: 15px 10px;
+    line-height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
+.icon a {
+    color: #fff;
+}
+
+footer {
+    font: 200 14px 'Oswald', sans-serif;
+    color: rgb(255, 248, 248);
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    background-color: #0068a4;
+}
+
+.identity img {
+    width: 10rem;
+    height: 6rem;
+    margin-left: 35px;
+}
+
+.identity {
+    display: flex;
+}
+
+.slogon {
+    margin-top: 40px;
+    width: 501px;
+    font-size: 20px;
+    margin-left: 232px;
+    font-weight: 100px;
+}
+
+.copyright {
+    color: #fff;
+    margin-top: -15px;
+    padding-top: 3px;
+    background-color: #6fbff5;
+}
